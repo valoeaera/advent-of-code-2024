@@ -3,11 +3,13 @@ package advent
 import advent.problem.Problem
 import advent.problem.problem01.Problem01
 import advent.problem.problem02.Problem02
+import advent.problem.problem03.Problem03
 
 class Advent {
     private static final Map<String, Problem> problems = [
         "1" : new Problem01(),
-        "2" : new Problem02()
+        "2" : new Problem02(),
+        "3" : new Problem03()
     ]
 
     static void main(String[] args) {
