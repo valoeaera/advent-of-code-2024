@@ -5,13 +5,15 @@ import advent.problem.problem01.Problem01
 import advent.problem.problem02.Problem02
 import advent.problem.problem03.Problem03
 import advent.problem.problem04.Problem04
+import advent.problem.problem05.Problem05
 
 class Advent {
     private static final Map<String, Problem> problems = [
-        "1" : new Problem01(),
-        "2" : new Problem02(),
-        "3" : new Problem03(),
+        '1' : new Problem01(),
+        '2' : new Problem02(),
+        '3' : new Problem03(),
         '4' : new Problem04(),
+        '5' : new Problem05(),
     ]
 
     static void main(String[] args) {
